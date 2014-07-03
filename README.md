@@ -40,7 +40,9 @@ Se você está usando notebook pode ser que os comandos de mouse não funcionem 
 ##Agradecimentos
 
 Renato Astério
+
 [LGroup] (http://www.lgroup.com.br/)
+
 .NET Coders
 
 
