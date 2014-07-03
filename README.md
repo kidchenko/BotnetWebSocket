@@ -37,6 +37,12 @@ Se você está usando notebook pode ser que os comandos de mouse não funcionem 
 
 - Aceitar localhost no ip
 
+##Agradecimentos
+
+Renato Astério
+[LGroup] (http://www.lgroup.com.br/)
+.NET Coders
+
 
 ##Dúvidas? 
 
