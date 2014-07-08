@@ -1,12 +1,6 @@
-C:\.NET CODERS\MaratonaHacker\Vxer\bin\Debug\BotnetWebSocket.Server.exe
-C:\.NET CODERS\MaratonaHacker\Vxer\bin\Debug\BotnetWebSocket.Server.pdb
-C:\.NET CODERS\MaratonaHacker\Vxer\bin\Debug\Fleck.dll
-C:\.NET CODERS\MaratonaHacker\Vxer\obj\Debug\BotnetWebSocket.Server.csprojResolveAssemblyReference.cache
-C:\.NET CODERS\MaratonaHacker\Vxer\obj\Debug\BotnetWebSocket.Server.exe
-C:\.NET CODERS\MaratonaHacker\Vxer\obj\Debug\BotnetWebSocket.Server.pdb
-C:\.NET CODERS\BotnetWebSocket\BotnetWebSocket.Server\obj\Debug\BotnetWebSocket.Server.exe
-C:\.NET CODERS\BotnetWebSocket\BotnetWebSocket.Server\obj\Debug\BotnetWebSocket.Server.pdb
-C:\.NET CODERS\BotnetWebSocket\BotnetWebSocket.Server\bin\Debug\BotnetWebSocket.Server.exe
-C:\.NET CODERS\BotnetWebSocket\BotnetWebSocket.Server\bin\Debug\BotnetWebSocket.Server.pdb
-C:\.NET CODERS\BotnetWebSocket\BotnetWebSocket.Server\bin\Debug\Fleck.dll
-C:\.NET CODERS\BotnetWebSocket\BotnetWebSocket.Server\obj\Debug\BotnetWebSocket.Server.csprojResolveAssemblyReference.cache
+C:\Users\kid_l_000\Desktop\BotnetWebSocket\BotnetWebSocket\BotnetWebSocket.Server\obj\Debug\BotnetWebSocket.Server.csprojResolveAssemblyReference.cache
+C:\Users\kid_l_000\Desktop\BotnetWebSocket\BotnetWebSocket\BotnetWebSocket.Server\bin\Debug\BotnetWebSocket.Server.exe
+C:\Users\kid_l_000\Desktop\BotnetWebSocket\BotnetWebSocket\BotnetWebSocket.Server\bin\Debug\BotnetWebSocket.Server.pdb
+C:\Users\kid_l_000\Desktop\BotnetWebSocket\BotnetWebSocket\BotnetWebSocket.Server\bin\Debug\Fleck.dll
+C:\Users\kid_l_000\Desktop\BotnetWebSocket\BotnetWebSocket\BotnetWebSocket.Server\obj\Debug\BotnetWebSocket.Server.exe
+C:\Users\kid_l_000\Desktop\BotnetWebSocket\BotnetWebSocket\BotnetWebSocket.Server\obj\Debug\BotnetWebSocket.Server.pdb
