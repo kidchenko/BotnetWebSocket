@@ -1,6 +1,0 @@
-C:\Users\kid_l_000\Desktop\BotnetWebSocket\BotnetWebSocket\BotnetWebSocket.Server\obj\Debug\BotnetWebSocket.Server.csprojResolveAssemblyReference.cache
-C:\Users\kid_l_000\Desktop\BotnetWebSocket\BotnetWebSocket\BotnetWebSocket.Server\bin\Debug\BotnetWebSocket.Server.exe
-C:\Users\kid_l_000\Desktop\BotnetWebSocket\BotnetWebSocket\BotnetWebSocket.Server\bin\Debug\BotnetWebSocket.Server.pdb
-C:\Users\kid_l_000\Desktop\BotnetWebSocket\BotnetWebSocket\BotnetWebSocket.Server\bin\Debug\Fleck.dll
-C:\Users\kid_l_000\Desktop\BotnetWebSocket\BotnetWebSocket\BotnetWebSocket.Server\obj\Debug\BotnetWebSocket.Server.exe
-C:\Users\kid_l_000\Desktop\BotnetWebSocket\BotnetWebSocket\BotnetWebSocket.Server\obj\Debug\BotnetWebSocket.Server.pdb

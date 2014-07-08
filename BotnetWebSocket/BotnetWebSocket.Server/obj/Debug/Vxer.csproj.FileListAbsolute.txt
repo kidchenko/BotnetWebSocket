@@ -1,6 +1,0 @@
-C:\.NET CODERS\MaratonaHacker\Vxer\bin\Debug\Vxer.exe
-C:\.NET CODERS\MaratonaHacker\Vxer\bin\Debug\Vxer.pdb
-C:\.NET CODERS\MaratonaHacker\Vxer\bin\Debug\Fleck.dll
-C:\.NET CODERS\MaratonaHacker\Vxer\obj\Debug\Vxer.csprojResolveAssemblyReference.cache
-C:\.NET CODERS\MaratonaHacker\Vxer\obj\Debug\Vxer.exe
-C:\.NET CODERS\MaratonaHacker\Vxer\obj\Debug\Vxer.pdb
